@@ -16,6 +16,19 @@ const anotherId = Symbol('123')
 
 console.log(id === anotherId);
 
-const bigNumber = 572938475298765943872n
+// const bigNumber = 572938475298765943872n
 
 // Array, Objects, Funtions
+const heros = ["shaktiman", "naagraj", "doga"]
+let myObj = {
+    name: "Vansh",
+    age: 20,
+}
+
+const myFunction = function(){
+    console.log("Hello, World!");
+}
+
+// console.log(typeof bigNumber);
+// console.log(typeof outsideTemp);
+console.log(typeof myFunction);
